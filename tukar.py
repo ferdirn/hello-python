@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-import argparse
+import sys
 
-parser = argparse.ArgumentParser(description='Tukar 2 nilai.')
-parser.add_argument('string', metavar='a', 
+if len(sys.argv) > 2:
+    sys.argv[1], sys.argv[2] = sys.argv[2], sys.argv[1]
+    print sys.argv[1], sys.argv[2]
+else:
+    print 0
