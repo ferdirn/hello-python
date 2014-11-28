@@ -8,6 +8,7 @@ except:
     print 'Error: Can\'t open file'
 else:
     print 'Entering else'
+    f.close()
 finally:
     print 'Program done!'
 

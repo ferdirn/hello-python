@@ -8,4 +8,4 @@ except IOError:
     print 'Can\'t find or open file'
 else:
     print 'Open file successfully'
-
+    f.close()

@@ -9,5 +9,4 @@ except IOError:
     print 'Error: can\'t find file or read data'
 else:
     print 'Written content in the file successfully'
-
-fh.close()
+    fh.close()
