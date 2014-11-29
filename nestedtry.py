@@ -4,7 +4,7 @@ print 'App nested try'
 try:
     fh = open('testfile.txt', 'w')
     try:
-        fh.write('This is my test file for writing handle')
+        fh.write('This is my test file for writing exception')
     finally:
         print 'Going to close the file'
 	fh.close()
