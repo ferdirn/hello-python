@@ -8,4 +8,8 @@ tinydict = {'name':'Ferdi', 'TTL':'22-09-1976', 'City':'Jakarta'}
 
 print dict['one']
 print dict[2]
+print tinydict
+print tinydict.keys()
+print tinydict.values()
 
+print tinydict['name']
