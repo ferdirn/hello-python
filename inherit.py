@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 class Hallo:
+    'common base class'
     def print_hallo(self):
         print 'Hallo!'
 
