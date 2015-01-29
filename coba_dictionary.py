@@ -3,3 +3,6 @@
 dict = {'name': 'Ferdi Ramdhon', 'location': 'Jakarta'}
 
 print dict
+
+print dict['name']
+
