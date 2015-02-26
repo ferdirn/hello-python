@@ -8,5 +8,6 @@ class Child1(BaseClass):
     def __init__(self):
         print "I'm child number 1"
 	super(Child1, self).__init__()
+	BaseClass.__init__(self)
 
-c = Child1()
+Child1()
