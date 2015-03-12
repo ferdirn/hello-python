@@ -6,6 +6,7 @@ dict[2] = 'This is two'
 
 tinydict = {'name':'Ferdi', 'TTL':'22-09-1976', 'City':'Jakarta'}
 
+print dict
 print dict['one']
 print dict[2]
 print tinydict
