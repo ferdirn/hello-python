@@ -11,7 +11,7 @@ attr_name = 'name'
 person = Person()
 print getattr(person, attr_name)
 
-getattr(person, 'say')('helooo...')
+getattr(person, 'say')('hellooo...')
 
 g = getattr(person, 'say')('hellooo...')
 
